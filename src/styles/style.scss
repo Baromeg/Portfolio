@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+* {
+box-sizing: border-box;
+} 
+
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+// Test colors 1
+// $primary: #355c7d;
+// $info: #6c5b7b;
+// $link: #c06c84;
+// $warning: #f67280; 
+
+// Test colors 2
+// $primary: #9ad3bc;
+// $info: #f3eac2;
+// $link: #f5b461;
+// $warning: #ec524b; 
+
+// Test colors 3
+$primary: #e8e8e8;
+$info: #f05454;
+$link: #30475e;
+$warning: #222831; 
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+// $primary: $purple;
+// $link: $pink;
+// $warning:$purple;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+@import "../../node_modules/bulma/bulma.sass";
