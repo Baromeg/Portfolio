@@ -7,7 +7,7 @@ import axios from 'axios'
 
 
 
-const Home = () => {
+const Contact = () => {
 
 
 
@@ -16,8 +16,7 @@ const Home = () => {
       <div className="hero-body">
         <div className="container">
           <div className="section title">
-            <p className="title is-1">{'<Baltasar'}</p>
-            <p className="title is-1">{'Romero/>'}</p>
+            Let's work together
           </div>
         </div>
 
@@ -31,4 +30,4 @@ const Home = () => {
 
 }
 
-export default Home
+export default Contact

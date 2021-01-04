@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { makeStyles, CssBaseline } from '@material-ui/core'
 
 // components
 
@@ -11,15 +12,26 @@ import Portfolio from './components/Portfolio'
 // import 'bulma'
 import './styles/style.scss'
 
+const useStyles = makeStyles({
+  appMain: {
+    paddingLeft: '320px',
+    width: '100%'
+  }
+})
+
 const App = () => (
-  <BrowserRouter>
+  <>
     <Navbar />
-    <Switch>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/About" component={About} />
-      <Route exact path="/Portfolio" component={Portfolio} />
-    </Switch>
-  </BrowserRouter>
+    <CssBaseline />
+    {/* <BrowserRouter>
+
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/About" component={About} />
+        <Route exact path="/Portfolio" component={Portfolio} />
+      </Switch>
+    </BrowserRouter> */}
+  </>
 )
 
 
