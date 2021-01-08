@@ -12,12 +12,12 @@ const Home = () => {
 
 
   return (
-    <section className="hero is-fullheight-with-navbar is-warning">
+    <section className="hero is-fullheight-with-navbar is-primary">
       <div className="hero-body">
         <div className="container">
           <div className="section title">
-            <p className="title is-1">{'<Baltasar'}</p>
-            <p className="title is-1">{'Romero/>'}</p>
+            <p className="title is-1 is-family-code">{'<Baltasar'}</p>
+            <p className="title is-1 is-family-code">{'Romero/>'}</p>
           </div>
         </div>
 

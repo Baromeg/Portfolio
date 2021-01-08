@@ -8,6 +8,7 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
+import Footer from './components/Footer'
 
 // import 'bulma'
 import './styles/style.scss'
@@ -23,6 +24,8 @@ const App = () => (
   <>
     <Navbar />
     <CssBaseline />
+    <Footer />
+
     {/* <BrowserRouter>
 
       <Switch>

@@ -209,21 +209,28 @@ const Navbar = (props) => {
                   >
                     <StyledTab
                       label="Baltasar Romero"
+                      className='is-family-code'
                     // indicatorColor="warning"
                     // textColor="link"
                     />
                     <StyledTab
                       label="just me"
+                      className='is-family-code'
+
                     // indicatorColor="info"
                     // textColor="info"
                     />
                     <StyledTab
                       label="my work"
+                      className='is-family-code'
+
                     // indicatorColor="warning"
                     // textColor="warning"
                     />
                     <StyledTab
                       label="get in touch"
+                      className='is-family-code'
+
                     // indicatorColor="warning"
                     // textColor="warning"
                     />
