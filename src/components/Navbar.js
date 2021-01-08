@@ -131,6 +131,9 @@ ScrollTop.propTypes = {
 }
 const theme = createMuiTheme({
   background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+  props: {
+    color: 'transparent'
+  },
   palette: {
     primary: {
       // light: '#757ce8',
@@ -168,7 +171,7 @@ const theme = createMuiTheme({
 
 const Navbar = (props) => {
 
-  const classes = useStyles()
+  // const classes = useStyles()
   // const theme = useTheme()
   const [value, setValue] = useState(0)
 
@@ -184,59 +187,73 @@ const Navbar = (props) => {
 
     <ThemeProvider theme={theme}>
       <div
-      // className={classes.demo2}
+      // className={ classes.demo2}
       >
         <HideOnScroll {...props}>
 
-          <AppBar  >
-            <Toolbar>
-              <Grid container>
-                {/* <Grid item xs={2}>
+          <AppBar
+          //theme={theme.props.MuiAppBar.color}
+          >
+            <Toolbar
+            //color="transparent"
+            >
+              <div className="columns">
+                <div className="column is-12">
+                  {/* <div className="navbar-item"> */}
+
+
+                  <Grid container>
+                    {/* <Grid item xs={2}>
                   Baltasar Romero
                 </Grid> */}
-                <Grid item xs={12}>
+                    <Grid item xs={12}>
 
 
-                  <StyledTabs
-                    value={value}
-                    onChange={handleChange}
+                      <StyledTabs
+                        value={value}
+                        onChange={handleChange}
 
-                    // indicatorColor="primary"
-                    // textColor="link"
-                    variant="fullWidth"
+                        // indicatorColor="primary"
+                        // textColor="link"
+                        variant="standard"
 
-                  // aria-label="full width tabs example"
-                  >
-                    <StyledTab
-                      label="Baltasar Romero"
-                      className='is-family-code'
-                    // indicatorColor="warning"
-                    // textColor="link"
-                    />
-                    <StyledTab
-                      label="just me"
-                      className='is-family-code'
+                      // aria-label="full width tabs example"
+                      >
+                        <StyledTab
+                          label="home"
+                          className='is-family-code has-text-weight-semibold		'
+                        // indicatorColor="warning"
+                        // textColor="link"
+                        />
+                        <StyledTab
+                          label="just me"
+                          className='is-family-code has-text-weight-semibold'
 
-                    // indicatorColor="info"
-                    // textColor="info"
-                    />
-                    <StyledTab
-                      label="my work"
-                      className='is-family-code'
+                        // indicatorColor="info"
+                        // textColor="info"
+                        />
+                        <StyledTab
+                          label="my work"
+                          className='is-family-code has-text-weight-semibold'
 
-                    // indicatorColor="warning"
-                    // textColor="warning"
-                    />
-                    <StyledTab
-                      label="get in touch"
-                      className='is-family-code'
+                        // indicatorColor="warning"
+                        // textColor="warning"
+                        />
+                        <StyledTab
+                          label="get in touch"
+                          className='is-family-code has-text-weight-semibold'
 
-                    // indicatorColor="warning"
-                    // textColor="warning"
-                    />
-                  </StyledTabs>
-                </Grid>
-              </Grid>
+                        // indicatorColor="warning"
+                        // textColor="warning"
+                        />
+                      </StyledTabs>
+                    </Grid>
+                  </Grid>
+                </div>
+                {/* <div className="column"></div> */}
+
+              </div>
+              {/* </div> */}
             </Toolbar>
 
           </AppBar>
@@ -260,17 +277,17 @@ const Navbar = (props) => {
             dir={theme.direction}
           >
             <About></About>
-            </div>
+          </div>
           <div value={value} index={2}
             dir={theme.direction}
           >
             <Portfolio></Portfolio>
-            </div>
+          </div>
           <div value={value} index={3}
             dir={theme.direction}
           >
             <Contact></Contact>
-            </div>
+          </div>
           {/* </Container> */}
           <ScrollTop {...props}>
             <Fab color="secondary" size="small" aria-label="scroll back to top">

@@ -28,7 +28,8 @@ $link: #30475e;
 $warning: #222831; 
 $input-background-color:  #e8e8e8;
 $footer-background-color:  #e8e8e8;
-
+$size-1: 100px;
+$footer-padding	:1rem 1.5rem 1rem;
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
 $grey-dark: $brown;
@@ -60,9 +61,30 @@ $input-shadow: none;
   width: 50%;
   max-height: 40px;
 }
-
+// .MuiAppBar-root {
+//   padding-right: 700px;
+// }
 .description{
   height: 400px;
+}
+
+
+.homebody {
+	background: linear-gradient(-45deg, #30475e,#f05454,  #e8e8e8);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .device-mockup {

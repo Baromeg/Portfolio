@@ -12,7 +12,7 @@ const About = () => {
   return <div>
     <section className="hero is-fullheight is-link">
 
-      <div className="hero-body ">
+      <div className="hero-body">
         <div className="container">
 
           <div className="section title has-text-primary is-family-code">
@@ -24,10 +24,8 @@ const About = () => {
               <div className="tile is-parent">
                 <article className="tile is-child notification is-link">
 
-
-
                   <div className="content is-size-5	">
-                    <p className='has-text-primary '>My expertise thrived on leading and motivating people, improving operational processes and customer experiences. I am passionate and inspired by the fast evolution of technology, and I admire the endless possibilities that the development community can achieve.</p>
+                    <p className='has-text-primary'>My expertise thrived on leading and motivating people, improving operational processes and customer experiences. I am passionate and inspired by the fast evolution of technology, and I admire the endless possibilities that the development community can achieve.</p>
                     <p>I decided to blend my passion for software engineering and my creative and analytical thinking to pursue a career shift, becoming part of the solution for today’s world challenges. I am eager to collaborate in projects that develop a better and more sustainable future.</p>
                     <p>I am seeking a full-stack developer role in a cooperative and knowledge-sharing environment to continue learning and improving my skills, where I can share my ideas and create impactful contributions.</p>
 

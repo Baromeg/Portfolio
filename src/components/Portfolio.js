@@ -11,7 +11,7 @@ const Portfolio = (props) => {
   return <div >
     <section className="hero is-fullheight-with-navbar is-primary ">
       <div className="hero-body">
-        <div className="container hero-work">
+        <div className="container ">
           <div className="section title has-text-link is-family-code">
             Know your Heritage
           </div>

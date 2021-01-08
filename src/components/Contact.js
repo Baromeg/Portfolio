@@ -93,11 +93,11 @@ const Contact = () => {
                   <div className="control">
 
                     <button
-                      className="button is-info has-text-weight-semibold has-text-primary	"
+                      className="button is-info has-text-weight-semibold has-text-link	"
                       value="Send"
                     >
                       <span className="icon">
-                        <FontAwesomeIcon icon={faPaperPlane} color='#e8e8e8' size='1x' />
+                        <FontAwesomeIcon icon={faPaperPlane} color='#30475e' size='1x' />
                       </span>
                       <span>Send</span>
                     </button>
