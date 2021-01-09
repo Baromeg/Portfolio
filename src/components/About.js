@@ -4,7 +4,8 @@ import axios from 'axios'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fap } from '@fortawesome/free-solid-svg-icons'
 import { faJsSquare, faPython, faReact, faNodeJs, faGitSquare, faGithub, faHtml5, faSass, faCss3 } from '@fortawesome/free-brands-svg-icons'
-
+import babel from '../styles/Babel.png'
+import bulma from '../styles/bulma.png'
 
 const About = () => {
 
@@ -125,7 +126,7 @@ const About = () => {
                     <div className="column">
 
                       <p className="title is-7 has-text-primary">Babel</p>
-                      <img className="image is-64x64 icons" src="../styles/babel.png" alt="Babel" />
+                      <img className="image is-64x64 icons" src={babel} alt="Babel" />
                     </div>
                     <div className="column">
 
@@ -173,7 +174,7 @@ const About = () => {
                   <div className="column ">
 
                     <p className="title is-7 has-text-primary">Bulma</p>
-                    <img className="image is-64x64 icons" src="../styles/bulma.png" alt="Bulma" />
+                    <img className="image is-64x64 icons" src={bulma} alt="Bulma" />
                   </div>
                   <div className="column">
 
