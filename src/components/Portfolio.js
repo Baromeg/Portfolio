@@ -315,12 +315,12 @@ const Portfolio = (props) => {
 
 
           <nav className="level is-mobile">
-            <div className="level-item has-text-centered">
+            {/* <div className="level-item has-text-centered">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={responsive} alt="responsive-design" />
-                {/* <p className="title is-7">responsive-design</p> */}
+                <p className="title is-7">responsive-design</p>
               </div>
-            </div>
+            </div> */}
             <div className="level-item has-text-centered">
               <div>
                 <FontAwesomeIcon icon={faJsSquare} color='#f05454' size='3x' />
