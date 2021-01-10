@@ -169,7 +169,7 @@ const About = () => {
                       <p className="title is-7 has-text-primary">GitHub</p>
                       <FontAwesomeIcon icon={faGithub} color='#f05454' size='5x' />
                     </div>
-                    <div className="column ">
+                    <div className="column">
 
                       <p className="title is-7 has-text-primary">Heroku</p>
                       <img className="image is-64x64 icons" src={heroku} alt="Heroku" />
