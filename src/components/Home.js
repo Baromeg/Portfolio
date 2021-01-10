@@ -16,11 +16,11 @@ const Home = () => {
       <div className="hero-body homebody">
         <div className="container">
           <div className="section title">
-            <p className="Subtitle is-size-2 is-family-code has-text-link">{'Hello World!'}</p>
+            <p className="Subtitle is-size-2 is-family-code has-text-link is-size-4-mobile">{'Hello World!'}</p>
 
             <p className="title is-size-1 is-family-code has-text-link is-size-2-mobile	">{"<I'm Baltasar"}</p>
             <p className="title is-size-1 is-family-code has-text-link is-size-2-mobile">{'Romero/>'}</p>
-            <p className="Subtitle is-size-2 is-family-code has-text-link">{'A Full-Stack Software Engineer'}</p>
+            <p className="Subtitle is-size-2 is-family-code has-text-link is-size-4-mobile">{'A Full-Stack Software Engineer'}</p>
           </div>
         </div>
 

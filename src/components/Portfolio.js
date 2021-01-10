@@ -73,7 +73,7 @@ const Portfolio = (props) => {
             </div>
           </div>
 
-          <nav className="level is-flex-mobile">
+          <nav className="level is-mobile ">
             <div className="level-item has-text-centered">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={responsive} alt="responsive-design" />
@@ -134,18 +134,18 @@ const Portfolio = (props) => {
                 <p className="title is-7">webpack</p>
               </div>
             </div> */}
-            <div className="level-item has-text-centered">
+            {/* <div className="level-item has-text-centered">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={heroku} alt="heroku" />
-                {/* <p className="title is-7">heroku</p> */}
+                <p className="title is-7">heroku</p>
               </div>
             </div>
             <div className="level-item has-text-centered">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={restapi} alt="rest-api" />
-                {/* <p className="title is-7">bulma</p> */}
+                <p className="title is-7">bulma</p>
               </div>
-            </div>
+            </div> */}
           </nav>
 
         </div>
@@ -194,7 +194,7 @@ const Portfolio = (props) => {
             </div>
           </div>
 
-          <nav className="level is-flex-mobile">
+          <nav className="level is-mobile">
             <div className="level-item has-text-centered">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={responsive} alt="responsive-design" />
@@ -251,18 +251,18 @@ const Portfolio = (props) => {
                 {/* <p className="title is-7">bulma</p> */}
               </div>
             </div>
-            <div className="level-item has-text-centered">
+            {/* <div className="level-item has-text-centered">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={mapbox} alt="mapbox" />
-                {/* <p className="title is-7">mapbox</p> */}
+                <p className="title is-7">mapbox</p>
               </div>
             </div>
             <div className="level-item has-text-centered">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={cloudinary} alt="cloudinary" />
-                {/* <p className="title is-7">cloudinary</p> */}
+                <p className="title is-7">cloudinary</p>
               </div>
-            </div>
+            </div> */}
           </nav>
 
 
@@ -314,7 +314,7 @@ const Portfolio = (props) => {
           </div>
 
 
-          <nav className="level is-flex-touch">
+          <nav className="level is-mobile">
             <div className="level-item has-text-centered">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={responsive} alt="responsive-design" />
@@ -359,18 +359,18 @@ const Portfolio = (props) => {
               </div>
             </div>
 
-            <div className="level-item has-text-centered">
+            {/* <div className="level-item has-text-centered">
               <div>
                 <FontAwesomeIcon icon={faGithub} color='#f05454' size='3x' />
-                {/* <p className="title is-7">github</p> */}
+                <p className="title is-7">github</p>
               </div>
             </div>
             <div className="level-item has-text-centered">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={bulma} alt="bulma" />
-                {/* <p className="title is-7">bulma</p> */}
+                <p className="title is-7">bulma</p>
               </div>
-            </div>
+            </div> */}
             
           </nav>
 
@@ -422,7 +422,7 @@ const Portfolio = (props) => {
             </div>
           </div>
 
-          <nav className="level is-flex-touch">
+          <nav className="level is-mobile">
 
             <div className="level-item has-text-centered">
               <div>
