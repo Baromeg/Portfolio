@@ -3,7 +3,28 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fap } from '@fortawesome/free-solid-svg-icons'
 import { faJsSquare, faPython, faReact, faNodeJs, faGitSquare, faGithub, faHtml5, faSass, faChrome, faCss3 } from '@fortawesome/free-brands-svg-icons'
 import Mockup from './Mockup'
- 
+import babel from '../styles/Babel.png'
+import bulma from '../styles/bulma.png'
+import responsive from '../styles/responsive-design.png'
+import mongodb from '../styles/mongodb.png'
+import jwt from '../styles/jwt.png'
+import flask from '../styles/flask.png'
+import postgresql from '../styles/postgresql.png'
+import marshmallow from '../styles/marshmallow.png'
+import express from '../styles/Express-JS-min.png'
+import webpack from '../styles/webpack.png'
+import vscode from '../styles/vscode.png'
+import heroku from '../styles/heroku.png'
+import flexbox from '../styles/flexbox.png'
+import material from '../styles/material.png'
+import d3 from '../styles/d3.png'
+import knowyourheritage from '../styles/knowyourheritage.png'
+import greenworld from '../styles/greenworld.png'
+import heroes from '../styles/heroes.png'
+import frogger from '../styles/frogger.png'
+import restapi from '../styles/rest-api.png'
+import mapbox from '../styles/mapbox.png'
+import cloudinary from '../styles/cloudinary.png'
 
 const Portfolio = (props) => {
 
@@ -11,7 +32,7 @@ const Portfolio = (props) => {
   return <div >
     <section className="hero is-fullheight-with-navbar is-primary ">
       <div className="hero-body">
-        <div className="container ">
+        <div className="container is-fullhd">
           <div className="section title has-text-link is-family-code">
             Know your Heritage
           </div>
@@ -19,7 +40,7 @@ const Portfolio = (props) => {
           <div className="columns">
             <div className="column is-8">
               <Mockup
-                src="../styles/knowyourheritage.png"
+                src={knowyourheritage}
               ></Mockup>
               {/* <img src="../styles/knowyourheritage.png" alt="knowyourheritage screenshot" /> */}
             </div>
@@ -55,7 +76,7 @@ const Portfolio = (props) => {
           <nav className="level is-mobile">
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/responsive-design.png" alt="responsive-design" />
+                <img className="image is-48x48 icons-portfolio" src={responsive} alt="responsive-design" />
                 {/* <p className="title is-7">responsive-design</p> */}
               </div>
             </div>
@@ -79,19 +100,19 @@ const Portfolio = (props) => {
             </div>
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/flask.png" alt="flask" />
+                <img className="image is-48x48 icons-portfolio" src={flask} alt="flask" />
                 {/* <p className="title is-7">Flask</p> */}
               </div>
             </div>
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/postgresql.png" alt="PostgresDB" />
+                <img className="image is-48x48 icons-portfolio" src={postgresql} alt="PostgresDB" />
                 {/* <p className="title is-7">PostgresDB</p> */}
               </div>
             </div>
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/marshmallow.png" alt="marshmallow" />
+                <img className="image is-48x48 icons-portfolio" src={marshmallow} alt="marshmallow" />
                 {/* <p className="title is-7">marshmallow</p> */}
               </div>
             </div>
@@ -115,13 +136,13 @@ const Portfolio = (props) => {
             </div> */}
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/heroku.png" alt="heroku" />
+                <img className="image is-48x48 icons-portfolio" src={heroku} alt="heroku" />
                 {/* <p className="title is-7">heroku</p> */}
               </div>
             </div>
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/bulma.png" alt="bulma" />
+                <img className="image is-48x48 icons-portfolio" src={restapi} alt="rest-api" />
                 {/* <p className="title is-7">bulma</p> */}
               </div>
             </div>
@@ -133,14 +154,14 @@ const Portfolio = (props) => {
 
     <section className="hero is-fullheight-with-navbar is-link ">
       <div className="hero-body">
-        <div className="container hero-work">
+        <div className="container is-fullhd hero-work">
           <div className="section title has-text-primary is-family-code">
             GreenWorld
           </div>
           <div className="columns">
             <div className="column is-8">
               <Mockup
-                src="../styles/greenworld.png"
+                src={greenworld}
               ></Mockup>
               {/* <img src="../styles/knowyourheritage.png" alt="knowyourheritage screenshot" /> */}
             </div>
@@ -176,7 +197,7 @@ const Portfolio = (props) => {
           <nav className="level is-mobile">
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/responsive-design.png" alt="responsive-design" />
+                <img className="image is-48x48 icons-portfolio" src={responsive} alt="responsive-design" />
                 {/* <p className="title is-7">responsive-design</p> */}
               </div>
             </div>
@@ -194,7 +215,7 @@ const Portfolio = (props) => {
             </div>
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/mongodb.png" alt="mongodb" />
+                <img className="image is-48x48 icons-portfolio" src={mongodb} alt="mongodb" />
                 {/* <p className="title is-7">mongodb</p> */}
               </div>
             </div>
@@ -220,25 +241,25 @@ const Portfolio = (props) => {
             
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/heroku.png" alt="heroku" />
+                <img className="image is-48x48 icons-portfolio" src={heroku} alt="heroku" />
                 {/* <p className="title is-7">heroku</p> */}
               </div>
             </div>
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/bulma.png" alt="bulma" />
+                <img className="image is-48x48 icons-portfolio" src={restapi} alt="rest-api" />
                 {/* <p className="title is-7">bulma</p> */}
               </div>
             </div>
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/mapbox.png" alt="mapbox" />
+                <img className="image is-48x48 icons-portfolio" src={mapbox} alt="mapbox" />
                 {/* <p className="title is-7">mapbox</p> */}
               </div>
             </div>
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/cloudinary.png" alt="cloudinary" />
+                <img className="image is-48x48 icons-portfolio" src={cloudinary} alt="cloudinary" />
                 {/* <p className="title is-7">cloudinary</p> */}
               </div>
             </div>
@@ -251,7 +272,7 @@ const Portfolio = (props) => {
 
     <section className="hero is-fullheight-with-navbar is-primary">
       <div className="hero-body">
-        <div className="container hero-work">
+        <div className="container is-fullhd hero-work">
           <div className="section title has-text-link is-family-code">
             Heroes
           </div>
@@ -259,7 +280,7 @@ const Portfolio = (props) => {
           <div className="columns">
             <div className="column is-8">
               <Mockup
-                src="../styles/heroes.png"
+                src={heroes}
               ></Mockup>
               {/* <img src="../styles/heroes.png" alt="heroes screenshot" /> */}
             </div>
@@ -296,7 +317,7 @@ const Portfolio = (props) => {
           <nav className="level is-mobile">
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/responsive-design.png" alt="responsive-design" />
+                <img className="image is-48x48 icons-portfolio" src={responsive} alt="responsive-design" />
                 {/* <p className="title is-7">responsive-design</p> */}
               </div>
             </div>
@@ -314,7 +335,7 @@ const Portfolio = (props) => {
             </div>
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/rest-api.png" alt="rest-api" />
+                <img className="image is-48x48 icons-portfolio" src={restapi} alt="rest-api" />
                 {/* <p className="title is-7">rest-api</p> */}
               </div>
             </div>
@@ -327,13 +348,13 @@ const Portfolio = (props) => {
             </div>
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/babel.png" alt="babel" />
+                <img className="image is-48x48 icons-portfolio" src={babel} alt="babel" />
                 {/* <p className="title is-7">babel</p> */}
               </div>
             </div>
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/webpack.png" alt="webpack" />
+                <img className="image is-48x48 icons-portfolio" src={webpack} alt="webpack" />
                 {/* <p className="title is-7">webpack</p> */}
               </div>
             </div>
@@ -346,7 +367,7 @@ const Portfolio = (props) => {
             </div>
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/bulma.png" alt="bulma" />
+                <img className="image is-48x48 icons-portfolio" src={bulma} alt="bulma" />
                 {/* <p className="title is-7">bulma</p> */}
               </div>
             </div>
@@ -361,7 +382,7 @@ const Portfolio = (props) => {
 
 
       <div className="hero-body">
-        <div className="container hero-work">
+        <div className="container is-fullhd hero-work">
           <div className="section title has-text-primary is-family-code">
             The Frogger
             </div>
@@ -370,7 +391,7 @@ const Portfolio = (props) => {
           <div className="columns">
             <div className="column is-8">
               <Mockup
-                src="../styles/frogger.png"
+                src={frogger}
               ></Mockup>
               {/* <img src="../styles/frogger.png" alt="frogger screenshot" /> */}
             </div>
@@ -423,7 +444,7 @@ const Portfolio = (props) => {
             </div>
             <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/flexbox.png" alt="flexbox" />
+                <img className="image is-48x48 icons-portfolio" src={flexbox} alt="flexbox" />
                 {/* <p className="title is-7">bulma</p> */}
               </div>
             </div>
@@ -475,7 +496,7 @@ export default Portfolio
 
 {/* <section className="hero is-fullheight-with-navbar is-primary">
       <div className="hero-body">
-        <div className="container hero-work">
+        <div className="container is-fullhd hero-work">
           <div className="section title">
             Greener World
           </div>

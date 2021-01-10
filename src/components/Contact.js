@@ -6,7 +6,7 @@ import axios from 'axios'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComments, faEnvelope, fap, faPaperPlane, faSignature } from '@fortawesome/free-solid-svg-icons'
 import { faJsSquare, faPython, faReact, faNodeJs, faGitSquare, faGithub, faHtml5, faSass, faCss3, faChrome, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-
+import me from '../styles/blackandwhite.jpeg'
 
 
 const Contact = () => {
@@ -25,7 +25,7 @@ const Contact = () => {
             <div className="column is-5 is-mobile">
 
               <figure className="image is-4by4  is-centered">
-                <img src="../styles/blackandwhite.jpeg" className="is-rounded" />
+                <img src={me} className="is-rounded" />
               </figure>
 
             </div>
