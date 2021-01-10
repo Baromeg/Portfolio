@@ -6,6 +6,19 @@ import { fap } from '@fortawesome/free-solid-svg-icons'
 import { faJsSquare, faPython, faReact, faNodeJs, faGitSquare, faGithub, faHtml5, faSass, faCss3 } from '@fortawesome/free-brands-svg-icons'
 import babel from '../styles/Babel.png'
 import bulma from '../styles/bulma.png'
+import responsive from '../styles/responsive-design.png'
+import mongodb from '../styles/mongodb.png'
+import jwt from '../styles/jwt.png'
+import flask from '../styles/flask.png'
+import postgresql from '../styles/postgresql.png'
+import marshmallow from '../styles/marshmallow.png'
+import express from '../styles/Express-JS-min.png'
+import webpack from '../styles/webpack.png'
+import vscode from '../styles/vscode.png'
+import heroku from '../styles/heroku.png'
+import flexbox from '../styles/flexbox.png'
+import material from '../styles/material.png'
+import d3 from '../styles/d3.png'
 
 const About = () => {
 
@@ -14,7 +27,7 @@ const About = () => {
     <section className="hero is-fullheight is-link">
 
       <div className="hero-body">
-        <div className="container">
+        <div className="container is-fullhd">
 
           <div className="section title has-text-primary is-family-code">
             Just me
@@ -61,7 +74,7 @@ const About = () => {
                     <div className="column ">
 
                       <p className="title is-7 has-text-primary">Responsive</p>
-                      <img className="image is-64x64 icons" src="../styles/responsive-design.png" alt="Responsive Design" />
+                      <img className="image is-64x64 icons" src={responsive} alt="Responsive Design" />
                     </div>
                   </div>
 
@@ -81,14 +94,14 @@ const About = () => {
 
                       <p className="title is-7 has-text-primary">MongoDB</p>
 
-                      <img className="image is-64x64 icons" src="../styles/mongodb.png" alt="mongodb" />
+                      <img className="image is-64x64 icons" src={mongodb} alt="mongodb" />
                     </div>
 
                     <div className="column">
 
                       <p className="title is-7 has-text-primary">JWT</p>
 
-                      <img className="image is-64x64 icons" src="../styles/jwt.png" alt="JWT" />
+                      <img className="image is-64x64 icons" src={jwt} alt="JWT" />
                     </div>
 
                   </div>
@@ -102,17 +115,17 @@ const About = () => {
                     <div className="column">
 
                       <p className="title is-7 has-text-primary">Flask</p>
-                      <img className="image is-64x64 icons" src="../styles/flask.png" alt="flask" />
+                      <img className="image is-64x64 icons" src={flask} alt="flask" />
                     </div>
                     <div className="column">
 
                       <p className="title is-7 has-text-primary">PostgreSQL</p>
-                      <img className="image is-64x64 icons" src="../styles/postgresql.png" alt="PostgreSQL" />
+                      <img className="image is-64x64 icons" src={postgresql} alt="PostgreSQL" />
                     </div>
                     <div className="column">
 
                       <p className="title is-7 has-text-primary">Marshmallow</p>
-                      <img className="image is-64x64 icons" src="../styles/marshmallow.png" alt="Marshmallow" />
+                      <img className="image is-64x64 icons" src={marshmallow} alt="Marshmallow" />
                     </div>
 
                   </div>
@@ -131,12 +144,12 @@ const About = () => {
                     <div className="column">
 
                       <p className="title is-7 has-text-primary">Express.js</p>
-                      <img className="image is-64x64 icons" src="../styles/Express-JS-min.png" alt="Express.js" />
+                      <img className="image is-64x64 icons" src={express} alt="Express.js" />
                     </div>
                     <div className="column ">
 
                       <p className="title is-7 has-text-primary">Webpack</p>
-                      <img className="image is-64x64 icons" src="../styles/webpack.png" alt="Webpack" />
+                      <img className="image is-64x64 icons" src={webpack} alt="Webpack" />
                     </div>
                   </div>
 
@@ -144,7 +157,7 @@ const About = () => {
                     <div className="column ">
 
                       <p className="title is-7 has-text-primary">VS Code</p>
-                      <img className="image is-64x64 icons" src="../styles/vscode.png" alt="VS Code" />
+                      <img className="image is-64x64 icons" src={vscode} alt="VS Code" />
                     </div>
                     <div className="column ">
 
@@ -159,17 +172,17 @@ const About = () => {
                     <div className="column ">
 
                       <p className="title is-7 has-text-primary">Heroku</p>
-                      <img className="image is-64x64 icons" src="../styles/heroku.png" alt="Heroku" />
+                      <img className="image is-64x64 icons" src={heroku} alt="Heroku" />
                     </div>
                   </div>
 
                 </div>
-                <div className="columns is-multiline is-centered is-mobile has-text-centered	">
+                {/* <div className="columns is-multiline is-centered is-mobile has-text-centered	">
 
                   <div className="column ">
 
                     <p className="title is-7 has-text-primary">Flexbox</p>
-                    <img className="image is-64x64 icons" src="../styles/flexbox.png" alt="Flexbox" />
+                    <img className="image is-64x64 icons" src={flexbox} alt="Flexbox" />
                   </div>
                   <div className="column ">
 
@@ -179,14 +192,14 @@ const About = () => {
                   <div className="column">
 
                     <p className="title is-7 has-text-primary">Material UI</p>
-                    <img className="image is-64x64 icons" src="../styles/material.png" alt="Material UI" />
+                    <img className="image is-64x64 icons" src={material} alt="Material UI" />
                   </div>
                   <div className="column">
 
                     <p className="title is-7 has-text-primary">D3.js</p>
-                    <img className="image is-64x64 icons" src="../styles/d3.png" alt="D3.js" />
+                    <img className="image is-64x64 icons" src={d3} alt="D3.js" />
                   </div>
-                </div>
+                </div> */}
               </article>
             </div>
           </div>
