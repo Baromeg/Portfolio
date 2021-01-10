@@ -73,7 +73,7 @@ const Portfolio = (props) => {
             </div>
           </div>
 
-          <nav className="level is-mobile">
+          <nav className="level is-flex-mobile">
             <div className="level-item has-text-centered">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={responsive} alt="responsive-design" />
@@ -194,7 +194,7 @@ const Portfolio = (props) => {
             </div>
           </div>
 
-          <nav className="level is-mobile">
+          <nav className="level is-flex-mobile">
             <div className="level-item has-text-centered">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={responsive} alt="responsive-design" />
@@ -314,7 +314,7 @@ const Portfolio = (props) => {
           </div>
 
 
-          <nav className="level is-mobile">
+          <nav className="level is-flex-touch">
             <div className="level-item has-text-centered">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={responsive} alt="responsive-design" />
@@ -422,7 +422,7 @@ const Portfolio = (props) => {
             </div>
           </div>
 
-          <nav className="level is-mobile">
+          <nav className="level is-flex-touch">
 
             <div className="level-item has-text-centered">
               <div>

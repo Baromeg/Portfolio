@@ -54,7 +54,7 @@ const About = () => {
               <article className="tile is-child notification is-link">
                 <div className="content">
 
-                  <div className="columns is-multiline is-centered is-mobile has-text-centered	">
+                  <div className="columns is-multiline is-centered is-flex-mobile has-text-centered	">
                     <div className="column ">
 
                       <p className="title is-7 has-text-primary">HTLM</p>
@@ -79,7 +79,7 @@ const About = () => {
                   </div>
 
 
-                  <div className="columns is-multiline is-centered is-mobile has-text-centered	">
+                  <div className="columns is-multiline is-centered is-flex-mobile has-text-centered	">
                     <div className="column">
 
                       <p className="title is-7 has-text-primary">JavaScript</p>
@@ -106,7 +106,7 @@ const About = () => {
 
                   </div>
 
-                  <div className="columns is-multiline is-centered is-mobile has-text-centered	">
+                  <div className="columns is-multiline is-centered is-flex-mobile has-text-centered	">
                     <div className="column">
 
                       <p className="title is-7 has-text-primary">Python</p>
@@ -130,7 +130,7 @@ const About = () => {
 
                   </div>
 
-                  <div className="columns is-multiline is-centered is-mobile has-text-centered	">
+                  <div className="columns is-multiline is-centered is-flex-mobile has-text-centered	">
                     <div className="column">
 
                       <p className="title is-7 has-text-primary">Node.js</p>
@@ -153,7 +153,7 @@ const About = () => {
                     </div>
                   </div>
 
-                  <div className="columns is-multiline is-centered is-mobile has-text-centered	">
+                  <div className="columns is-multiline is-centered is-flex-mobile has-text-centered	">
                     <div className="column ">
 
                       <p className="title is-7 has-text-primary">VS Code</p>
@@ -177,7 +177,7 @@ const About = () => {
                   </div>
 
                 </div>
-                {/* <div className="columns is-multiline is-centered is-mobile has-text-centered	">
+                {/* <div className="columns is-multiline is-centered is-flex-mobile has-text-centered	">
 
                   <div className="column ">
 
