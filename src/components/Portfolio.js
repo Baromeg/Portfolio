@@ -36,7 +36,7 @@ const Portfolio = (props) => {
           <div className="section title has-text-link is-family-code">
             Know your Heritage
           </div>
-         
+
           <div className="columns">
             <div className="column is-8">
               <Mockup
@@ -74,12 +74,13 @@ const Portfolio = (props) => {
           </div>
 
           <nav className="level is-mobile ">
-            {/* <div className="level-item has-text-centered">
+
+            <div className="level-item has-text-centered">
               <div>
-                <img className="image is-48x48 icons-portfolio" src={responsive} alt="responsive-design" />
-                <p className="title is-7">responsive-design</p>
+                <img className="image is-48x48 icons-portfolio is-hidden-touch	" src={responsive} alt="responsive-design" />
+                {/* <p className="title is-7">responsive-design</p> */}
               </div>
-            </div> */}
+            </div>
             <div className="level-item has-text-centered">
               <div>
                 <FontAwesomeIcon icon={faJsSquare} color='#f05454' size='3x' />
@@ -110,42 +111,43 @@ const Portfolio = (props) => {
                 {/* <p className="title is-7">PostgresDB</p> */}
               </div>
             </div>
+
             <div className="level-item has-text-centered">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={marshmallow} alt="marshmallow" />
                 {/* <p className="title is-7">marshmallow</p> */}
               </div>
             </div>
-            {/* <div className="level-item has-text-centered">
+            <div className="level-item has-text-centered is-hidden-touch	">
               <div>
                 <FontAwesomeIcon icon={faNodeJs} color='#f05454' size='3x' />
-                <p className="title is-7">Node.js</p>
+                {/* <p className="title is-7">Node.js</p> */}
               </div>
             </div>
-            <div className="level-item has-text-centered">
+            <div className="level-item has-text-centered is-hidden-touch	">
               <div>
                 <img className="image is-48x48 icons-portfolio" src="../styles/babel.png" alt="babel" />
-                <p className="title is-7">babel</p>
+                {/* <p className="title is-7">babel</p> */}
               </div>
             </div>
-            <div className="level-item has-text-centered">
+            <div className="level-item has-text-centered is-hidden-touch	">
               <div>
                 <img className="image is-48x48 icons-portfolio" src="../styles/webpack.png" alt="webpack" />
-                <p className="title is-7">webpack</p>
-              </div>
-            </div> */}
-            {/* <div className="level-item has-text-centered">
-              <div>
-                <img className="image is-48x48 icons-portfolio" src={heroku} alt="heroku" />
-                <p className="title is-7">heroku</p>
+                {/* <p className="title is-7">webpack</p> */}
               </div>
             </div>
-            <div className="level-item has-text-centered">
+            <div className="level-item has-text-centered is-hidden-touch	">
+              <div>
+                <img className="image is-48x48 icons-portfolio" src={heroku} alt="heroku" />
+                {/* <p className="title is-7">heroku</p> */}
+              </div>
+            </div>
+            <div className="level-item has-text-centered is-hidden-touch	">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={restapi} alt="rest-api" />
-                <p className="title is-7">bulma</p>
+                {/* <p className="title is-7">bulma</p> */}
               </div>
-            </div> */}
+            </div>
           </nav>
 
         </div>
@@ -175,7 +177,7 @@ const Portfolio = (props) => {
                         <a target='_blank' rel='noreferrer' href="https://greenworld-p3.herokuapp.com/">
                           <FontAwesomeIcon icon={faChrome} color='#f05454' size='3x' />
                         </a>
-                    </div>
+                      </div>
                       <div className="column has-text-centered">
                         <a target='_blank' rel='noreferrer' href="https://github.com/Baromeg/project-3"><FontAwesomeIcon icon={faGithub} color='#f05454' size='3x' />
                         </a>
@@ -195,12 +197,12 @@ const Portfolio = (props) => {
           </div>
 
           <nav className="level is-mobile">
-            {/* <div className="level-item has-text-centered">
+            <div className="level-item has-text-centered is-hidden-touch	">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={responsive} alt="responsive-design" />
-                <p className="title is-7">responsive-design</p>
+                {/* <p className="title is-7">responsive-design</p> */}
               </div>
-            </div> */}
+            </div>
             <div className="level-item has-text-centered">
               <div>
                 <FontAwesomeIcon icon={faJsSquare} color='#f05454' size='3x' />
@@ -219,26 +221,26 @@ const Portfolio = (props) => {
                 {/* <p className="title is-7">mongodb</p> */}
               </div>
             </div>
-            
+
             <div className="level-item has-text-centered">
               <div>
                 <FontAwesomeIcon icon={faNodeJs} color='#f05454' size='3x' />
                 {/* <p className="title is-7">Node.js</p> */}
               </div>
             </div>
-            {/* <div className="level-item has-text-centered">
+            <div className="level-item has-text-centered is-hidden-touch	">
               <div>
                 <img className="image is-48x48 icons-portfolio" src="../styles/babel.png" alt="babel" />
-                <p className="title is-7">babel</p>
+                {/* <p className="title is-7">babel</p> */}
               </div>
             </div>
-            <div className="level-item has-text-centered">
+            <div className="level-item has-text-centered is-hidden-touch	">
               <div>
                 <img className="image is-48x48 icons-portfolio" src="../styles/webpack.png" alt="webpack" />
-                <p className="title is-7">webpack</p>
+                {/* <p className="title is-7">webpack</p> */}
               </div>
-            </div> */}
-            
+            </div>
+
             <div className="level-item has-text-centered">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={heroku} alt="heroku" />
@@ -251,18 +253,18 @@ const Portfolio = (props) => {
                 {/* <p className="title is-7">bulma</p> */}
               </div>
             </div>
-            {/* <div className="level-item has-text-centered">
+            <div className="level-item has-text-centered is-hidden-touch	">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={mapbox} alt="mapbox" />
-                <p className="title is-7">mapbox</p>
+                {/* <p className="title is-7">mapbox</p> */}
               </div>
             </div>
-            <div className="level-item has-text-centered">
+            <div className="level-item has-text-centered is-hidden-touch">
               <div>
-                <img className="image is-48x48 icons-portfolio" src={cloudinary} alt="cloudinary" />
-                <p className="title is-7">cloudinary</p>
+                <img className="image is-48x48 icons-portfolio 	" src={cloudinary} alt="cloudinary" />
+                {/* <p className="title is-7">cloudinary</p> */}
               </div>
-            </div> */}
+            </div>
           </nav>
 
 
@@ -315,12 +317,12 @@ const Portfolio = (props) => {
 
 
           <nav className="level is-mobile">
-            {/* <div className="level-item has-text-centered">
+            <div className="level-item has-text-centered ">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={responsive} alt="responsive-design" />
-                <p className="title is-7">responsive-design</p>
+                {/* <p className="title is-7">responsive-design</p> */}
               </div>
-            </div> */}
+            </div>
             <div className="level-item has-text-centered">
               <div>
                 <FontAwesomeIcon icon={faJsSquare} color='#f05454' size='3x' />
@@ -359,22 +361,22 @@ const Portfolio = (props) => {
               </div>
             </div>
 
-            {/* <div className="level-item has-text-centered">
+            <div className="level-item has-text-centered is-hidden-touch	">
               <div>
                 <FontAwesomeIcon icon={faGithub} color='#f05454' size='3x' />
-                <p className="title is-7">github</p>
+                {/* <p className="title is-7">github</p> */}
               </div>
             </div>
-            <div className="level-item has-text-centered">
+            <div className="level-item has-text-centered is-hidden-touch	">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={bulma} alt="bulma" />
-                <p className="title is-7">bulma</p>
+                {/* <p className="title is-7">bulma</p> */}
               </div>
-            </div> */}
-            
+            </div>
+
           </nav>
 
-          
+
         </div>
       </div>
     </section>

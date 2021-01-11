@@ -30,7 +30,7 @@ const About = () => {
         <div className="container is-fullhd">
 
           <div className="section title has-text-primary is-family-code">
-            Just me
+            About me
           </div>
           <div className="tile is-ancestor">
             <div className="tile is-vertical is-6">
@@ -40,8 +40,8 @@ const About = () => {
 
                   <div className="content is-size-5	">
                     <p className='has-text-primary'>My expertise thrived on leading and motivating people, improving operational processes and customer experiences. I am passionate and inspired by the fast evolution of technology, and I admire the endless possibilities that the development community can achieve.</p>
-                    <p>I decided to blend my passion for software engineering and my creative and analytical thinking to pursue a career shift, becoming part of the solution for today’s world challenges. I am eager to collaborate in projects that develop a better and more sustainable future.</p>
-                    <p>I am seeking a full-stack developer role in a cooperative and knowledge-sharing environment to continue learning and improving my skills, where I can share my ideas and create impactful contributions.</p>
+                    <p className='has-text-primary'>I decided to blend my passion for software engineering and my creative and analytical thinking to pursue a career shift, becoming part of the solution for today’s world challenges. I am eager to collaborate in projects that develop a better and more sustainable future.</p>
+                    <p className='has-text-primary'>I am seeking a full-stack developer role in a cooperative and knowledge-sharing environment to continue learning and improving my skills, where I can share my ideas and create impactful contributions.</p>
 
 
 
@@ -55,124 +55,153 @@ const About = () => {
                 <div className="content">
 
                   <div className="columns is-multiline is-centered is-flex-mobile has-text-centered	">
-                    <div className="column ">
+                    <div className="is-inline-flex">
 
-                      <p className="title is-7 has-text-primary">HTLM</p>
-                      <FontAwesomeIcon icon={faHtml5} color='#f05454' size='5x' />
+                      <div className="column ">
+
+                        <p className="title is-7 has-text-primary">HTLM</p>
+                        <FontAwesomeIcon icon={faHtml5} color='#f05454' size='5x' />
+                      </div>
+                      <div className="column ">
+
+                        <p className="title is-7 has-text-primary">CSS</p>
+                        <FontAwesomeIcon icon={faCss3} color='#f05454' size='5x' />
+                      </div>
                     </div>
-                    <div className="column ">
+                    <div className="is-inline-flex">
 
-                      <p className="title is-7 has-text-primary">CSS</p>
-                      <FontAwesomeIcon icon={faCss3} color='#f05454' size='5x' />
-                    </div>
-                    <div className="column ">
+                      <div className="column ">
 
-                      <p className="title is-7 has-text-primary">SASS</p>
-                      <FontAwesomeIcon icon={faSass} color='#f05454' size='5x' />
-                    </div>
+                        <p className="title is-7 has-text-primary">SASS</p>
+                        <FontAwesomeIcon icon={faSass} color='#f05454' size='5x' />
+                      </div>
 
-                    <div className="column ">
+                      <div className="column ">
 
-                      <p className="title is-7 has-text-primary">Responsive</p>
-                      <img className="image is-64x64 icons" src={responsive} alt="Responsive Design" />
-                    </div>
-                  </div>
-
-
-                  <div className="columns is-multiline is-centered is-flex-mobile has-text-centered	">
-                    <div className="column">
-
-                      <p className="title is-7 has-text-primary">JavaScript</p>
-                      <FontAwesomeIcon icon={faJsSquare} color='#f05454' size='5x' />
-                    </div>
-                    <div className="column">
-
-                      <p className="title is-7 has-text-primary">React.Js</p>
-                      <FontAwesomeIcon icon={faReact} color='#f05454' size='5x' />
-                    </div>
-                    <div className="column">
-
-                      <p className="title is-7 has-text-primary">MongoDB</p>
-
-                      <img className="image is-64x64 icons" src={mongodb} alt="mongodb" />
-                    </div>
-
-                    <div className="column">
-
-                      <p className="title is-7 has-text-primary">JWT</p>
-
-                      <img className="image is-64x64 icons" src={jwt} alt="JWT" />
+                        <p className="title is-7 has-text-primary">Responsive</p>
+                        <img className="image is-64x64 icons" src={responsive} alt="Responsive Design" />
+                      </div>
                     </div>
 
                   </div>
 
-                  <div className="columns is-multiline is-centered is-flex-mobile has-text-centered	">
-                    <div className="column">
-
-                      <p className="title is-7 has-text-primary">Python</p>
-                      <FontAwesomeIcon icon={faPython} color='#f05454' size='5x' />
-                    </div>
-                    <div className="column">
-
-                      <p className="title is-7 has-text-primary">Flask</p>
-                      <img className="image is-64x64 icons" src={flask} alt="flask" />
-                    </div>
-                    <div className="column">
-
-                      <p className="title is-7 has-text-primary">PostgreSQL</p>
-                      <img className="image is-64x64 icons" src={postgresql} alt="PostgreSQL" />
-                    </div>
-                    <div className="column">
-
-                      <p className="title is-7 has-text-primary">Marshmallow</p>
-                      <img className="image is-64x64 icons" src={marshmallow} alt="Marshmallow" />
-                    </div>
-
-                  </div>
 
                   <div className="columns is-multiline is-centered is-flex-mobile has-text-centered	">
-                    <div className="column">
+                    <div className="is-inline-flex">
 
-                      <p className="title is-7 has-text-primary">Node.js</p>
-                      <FontAwesomeIcon icon={faNodeJs} color='#f05454' size='5x' />
+                      <div className="column">
+
+                        <p className="title is-7 has-text-primary">JavaScript</p>
+                        <FontAwesomeIcon icon={faJsSquare} color='#f05454' size='5x' />
+                      </div>
+                      <div className="column">
+
+                        <p className="title is-7 has-text-primary">React.Js</p>
+                        <FontAwesomeIcon icon={faReact} color='#f05454' size='5x' />
+                      </div>
                     </div>
-                    <div className="column">
+                    <div className="is-inline-flex">
 
-                      <p className="title is-7 has-text-primary">Babel</p>
-                      <img className="image is-64x64 icons" src={babel} alt="Babel" />
-                    </div>
-                    <div className="column">
+                      <div className="column">
 
-                      <p className="title is-7 has-text-primary">Express.js</p>
-                      <img className="image is-64x64 icons" src={express} alt="Express.js" />
-                    </div>
-                    <div className="column ">
+                        <p className="title is-7 has-text-primary">MongoDB</p>
 
-                      <p className="title is-7 has-text-primary">Webpack</p>
-                      <img className="image is-64x64 icons" src={webpack} alt="Webpack" />
+                        <img className="image is-64x64 icons" src={mongodb} alt="mongodb" />
+                      </div>
+
+                      <div className="column">
+
+                        <p className="title is-7 has-text-primary">JWT</p>
+
+                        <img className="image is-64x64 icons" src={jwt} alt="JWT" />
+                      </div>
                     </div>
                   </div>
 
                   <div className="columns is-multiline is-centered is-flex-mobile has-text-centered	">
-                    <div className="column ">
+                    <div className="is-inline-flex">
 
-                      <p className="title is-7 has-text-primary">VS Code</p>
-                      <img className="image is-64x64 icons" src={vscode} alt="VS Code" />
+                      <div className="column">
+
+                        <p className="title is-7 has-text-primary">Python</p>
+                        <FontAwesomeIcon icon={faPython} color='#f05454' size='5x' />
+                      </div>
+                      <div className="column">
+
+                        <p className="title is-7 has-text-primary">Flask</p>
+                        <img className="image is-64x64 icons" src={flask} alt="flask" />
+                      </div>
                     </div>
-                    <div className="column ">
+                    <div className="is-inline-flex">
 
-                      <p className="title is-7 has-text-primary">Git</p>
-                      <FontAwesomeIcon icon={faGitSquare} color='#f05454' size='5x' />
+                      <div className="column">
+
+                        <p className="title is-7 has-text-primary">PostgreSQL</p>
+                        <img className="image is-64x64 icons" src={postgresql} alt="PostgreSQL" />
+                      </div>
+                      <div className="column">
+
+                        <p className="title is-7 has-text-primary">Marshmallow</p>
+                        <img className="image is-64x64 icons" src={marshmallow} alt="Marshmallow" />
+                      </div>
                     </div>
-                    <div className="column">
+                  </div>
 
-                      <p className="title is-7 has-text-primary">GitHub</p>
-                      <FontAwesomeIcon icon={faGithub} color='#f05454' size='5x' />
+                  <div className="columns is-multiline is-centered is-flex-mobile has-text-centered	">
+                    <div className="is-inline-flex">
+
+                      <div className="column">
+
+                        <p className="title is-7 has-text-primary">Node.js</p>
+                        <FontAwesomeIcon icon={faNodeJs} color='#f05454' size='5x' />
+                      </div>
+                      <div className="column">
+
+                        <p className="title is-7 has-text-primary">Babel</p>
+                        <img className="image is-64x64 icons" src={babel} alt="Babel" />
+                      </div>
                     </div>
-                    <div className="column">
+                    <div className="is-inline-flex">
 
-                      <p className="title is-7 has-text-primary">Heroku</p>
-                      <img className="image is-64x64 icons" src={heroku} alt="Heroku" />
+                      <div className="column">
+
+                        <p className="title is-7 has-text-primary">Express.js</p>
+                        <img className="image is-64x64 icons" src={express} alt="Express.js" />
+                      </div>
+                      <div className="column ">
+
+                        <p className="title is-7 has-text-primary">Webpack</p>
+                        <img className="image is-64x64 icons" src={webpack} alt="Webpack" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="columns is-multiline is-centered is-flex-mobile has-text-centered	">
+                    <div className="is-inline-flex">
+
+                      <div className="column ">
+
+                        <p className="title is-7 has-text-primary">VS Code</p>
+                        <img className="image is-64x64 icons" src={vscode} alt="VS Code" />
+                      </div>
+                      <div className="column ">
+
+                        <p className="title is-7 has-text-primary">Git</p>
+                        <FontAwesomeIcon icon={faGitSquare} color='#f05454' size='5x' />
+                      </div>
+                    </div>
+                    <div className="is-inline-flex">
+
+                      <div className="column">
+
+                        <p className="title is-7 has-text-primary">GitHub</p>
+                        <FontAwesomeIcon icon={faGithub} color='#f05454' size='5x' />
+                      </div>
+                      <div className="column">
+
+                        <p className="title is-7 has-text-primary">Heroku</p>
+                        <img className="image is-64x64 icons" src={heroku} alt="Heroku" />
+                      </div>
                     </div>
                   </div>
 

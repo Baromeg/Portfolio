@@ -36,6 +36,22 @@ function HideOnScroll(props) {
   )
 }
 
+// const useStyles = makeStyles((theme) => ({
+//   root: {
+//     position: 'fixed',
+//     bottom: theme.spacing(2),
+//     right: theme.spacing(2)
+//   },
+//   navBar: {
+//     flexGrow: 1,
+//     // background: '#',
+//     borderBottom: '1px solid #f05454',
+//     '& .MuiTab-wrapper': {
+//       borderBottom: '1px solid #f05454',
+
+//     }
+//   }
+// }))
 
 
 const StyledTabs = withStyles({
@@ -72,11 +88,20 @@ const useStyles = makeStyles((theme) => ({
   },
   padding: {
     padding: theme.spacing(3)
-  }
+  },
+  demo1: {
+    backgroundColor: theme.palette.background.paper
+  },
+  // demo2: {
+  //   backgroundColor: '#2e1534'
+  // }
 }))
 function ScrollTop(props) {
   const { children, window } = props
   const classes = useStyles()
+  // Note that you normally won't need to set the window ref as useScrollTrigger
+  // will default to window.
+  // This is only being set here because the demo is in an iframe.
   const trigger = useScrollTrigger({
     target: window ? window() : undefined,
     disableHysteresis: true,
@@ -102,13 +127,13 @@ function ScrollTop(props) {
 
 ScrollTop.propTypes = {
   children: PropTypes.element.isRequired,
-  window: PropTypes.func
+  window: PropTypes.func,
 }
 const theme = createMuiTheme({
-  // background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
-  // props: {
-  //   color: 'transparent'
-  // },
+  background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+  props: {
+    color: 'transparent'
+  },
   palette: {
     primary: {
       // light: '#757ce8',
@@ -137,16 +162,26 @@ const theme = createMuiTheme({
   }
 })
 
+// const useStyles = makeStyles((theme) => ({
+//   navBar: {
+//     flexGrow: 1,
+//     backgroundColor: theme.palette.background
+//   }
+// }))
 
 const Navbar = (props) => {
 
+  // const classes = useStyles()
+  // const theme = useTheme()
   const [value, setValue] = useState(0)
 
   const handleChange = (event, newValue) => {
+    console.log(newValue)
     setValue(newValue)
   }
 
   const handleChangeIndex = (index) => {
+    console.log(index)
     setValue(index)
   }
 
@@ -154,50 +189,73 @@ const Navbar = (props) => {
 
     <ThemeProvider theme={theme}>
       <div
+      // className={ classes.demo2}
       >
         <HideOnScroll {...props}>
 
           <AppBar
+          //theme={theme.props.MuiAppBar.color}
           >
             <Toolbar
+            //color="transparent"
             >
               <div className="columns">
                 <div className="column is-12">
+                  {/* <div className="navbar-item"> */}
 
 
                   <Grid container>
-
+                    {/* <Grid item xs={2}>
+                  Baltasar Romero
+                </Grid> */}
                     <Grid item xs={12}>
 
 
                       <StyledTabs
                         value={value}
                         onChange={handleChange}
-                        variant="scrollable"
-                        scrollButtons="auto"
+
+                        // indicatorColor="primary"
+                        // textColor="link"
+                        variant="standard"
+
+                      // aria-label="full width tabs example"
                       >
                         <StyledTab
                           label="home"
                           className='is-family-code has-text-weight-semibold		'
+                        // indicatorColor="warning"
+                        // textColor="link"
                         />
                         <StyledTab
-                          label="just me"
+                          label="about me"
                           className='is-family-code has-text-weight-semibold'
+
+                        // indicatorColor="info"
+                        // textColor="info"
                         />
                         <StyledTab
                           label="my work"
                           className='is-family-code has-text-weight-semibold'
+
+                        // indicatorColor="warning"
+                        // textColor="warning"
                         />
                         <StyledTab
                           label="get in touch"
                           className='is-family-code has-text-weight-semibold'
+
+                        // indicatorColor="warning"
+                        // textColor="warning"
                         />
                       </StyledTabs>
                     </Grid>
                   </Grid>
                 </div>
+                {/* <div className="column"></div> */}
 
               </div>
+              {/* </div> */}
             </Toolbar>
 
           </AppBar>
@@ -205,28 +263,34 @@ const Navbar = (props) => {
         <Toolbar id="back-to-top-anchor" />
 
         <SwipeableViews
-          // axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+          axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
           index={value}
           animateHeight
           onChangeIndex={handleChangeIndex}
         >
+          {/* <Container> */}
 
           <div value={value} index={0}
+            dir={theme.direction}
           >
             <Home></Home>
           </div>
           <div value={value} index={1}
+            dir={theme.direction}
           >
             <About></About>
           </div>
           <div value={value} index={2}
+            dir={theme.direction}
           >
             <Portfolio></Portfolio>
           </div>
           <div value={value} index={3}
+            dir={theme.direction}
           >
             <Contact></Contact>
           </div>
+          {/* </Container> */}
           <ScrollTop {...props}>
             <Fab color="secondary" size="small" aria-label="scroll back to top">
               <KeyboardArrowUpIcon />
