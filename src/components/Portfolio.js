@@ -317,7 +317,7 @@ const Portfolio = (props) => {
 
 
           <nav className="level is-mobile">
-            <div className="level-item has-text-centered ">
+            <div className="level-item has-text-centered is-hidden-touch">
               <div>
                 <img className="image is-48x48 icons-portfolio" src={responsive} alt="responsive-design" />
                 {/* <p className="title is-7">responsive-design</p> */}

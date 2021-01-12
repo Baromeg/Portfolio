@@ -16,7 +16,7 @@ const Home = () => {
       <div className="hero-body homebody">
         <div className="container">
           <div className="section title">
-            <p className="Subtitle is-size-2 is-family-code has-text-link is-size-4-mobile pb-4">{'Hello World!'}</p>
+            <p className="Subtitle is-size-2 is-family-code has-text-link is-size-4-mobile pb-5">{'Hello World!'}</p>
 
             <p className="title is-size-1 is-family-code has-text-link is-size-2-mobile	">{"<I'm Baltasar"}</p>
             <p className="title is-size-1 is-family-code has-text-link is-size-2-mobile">{'Romero/>'}</p>
