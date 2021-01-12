@@ -181,7 +181,7 @@ const Navbar = (props) => {
                           className='is-family-code has-text-weight-semibold		'
                         />
                         <StyledTab
-                          label="just me"
+                          label="about me"
                           className='is-family-code has-text-weight-semibold'
                         />
                         <StyledTab
