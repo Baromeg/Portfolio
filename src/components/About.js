@@ -39,9 +39,11 @@ const About = () => {
                 <article className="tile is-child notification is-link">
 
                   <div className="content is-size-5	">
-                    <p className='has-text-primary'>My expertise thrived on leading and motivating people, improving operational processes and customer experiences. I am passionate and inspired by the fast evolution of technology, and I admire the endless possibilities that the development community can achieve.</p>
+                    <p className='has-text-primary'>I am Baltasar, a graduated software engineer at General Assembly, I am seeking a Junior full-stack developer role where I can share my ideas and create impactful contributions, in a cooperative and knowledge-sharing environment to continue learning and improving my skills.
+
+</p>
                     <p className='has-text-primary'>I decided to blend my passion for software engineering and my creative and analytical thinking to pursue a career shift, becoming part of the solution for today’s world challenges. I am eager to collaborate in projects that develop a better and more sustainable future.</p>
-                    <p className='has-text-primary'>I am seeking a full-stack developer role in a cooperative and knowledge-sharing environment to continue learning and improving my skills, where I can share my ideas and create impactful contributions.</p>
+                    <p className='has-text-primary'>My expertise thrived on leading and motivating people, improving operational processes and customer experiences. I am passionate and inspired by the fast evolution of technology, and I admire the endless possibilities that the development community can achieve.</p>
 
 
 
