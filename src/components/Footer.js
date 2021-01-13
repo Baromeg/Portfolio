@@ -21,7 +21,7 @@ import About from './About'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fap } from '@fortawesome/free-solid-svg-icons'
+import { fap, faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
 import { faJsSquare, faPython, faReact, faNodeJs, faGitSquare, faGithub, faHtml5, faSass, faChrome, faCss3, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = (props) => {
@@ -42,7 +42,8 @@ const Footer = (props) => {
           </a>
           <a target='_blank' rel='noreferrer' href="https://github.com/Baromeg/"><FontAwesomeIcon icon={faGithub} color='#f05454' size='2x' className="pl-1" />
           </a>
-
+          {/* <a target='_blank' rel='noreferrer' href="mailto:baromeg@gmail.com"><FontAwesomeIcon icon={faEnvelopeSquare} color='#f05454' size='2x' className="pl-2" />
+          </a> */}
         </div>
         {/* <div className="column has-text-centered pt-5">
           
