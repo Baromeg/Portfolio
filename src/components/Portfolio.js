@@ -126,13 +126,13 @@ const Portfolio = (props) => {
             </div>
             <div className="level-item has-text-centered is-hidden-touch	">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/babel.png" alt="babel" />
+                <img className="image is-48x48 icons-portfolio" src={babel} />
                 {/* <p className="title is-7">babel</p> */}
               </div>
             </div>
             <div className="level-item has-text-centered is-hidden-touch	">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/webpack.png" alt="webpack" />
+                <img className="image is-48x48 icons-portfolio" src={webpack} alt="webpack" />
                 {/* <p className="title is-7">webpack</p> */}
               </div>
             </div>
@@ -230,13 +230,13 @@ const Portfolio = (props) => {
             </div>
             <div className="level-item has-text-centered is-hidden-touch	">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/babel.png" alt="babel" />
+                <img className="image is-48x48 icons-portfolio" src={babel} alt="babel" />
                 {/* <p className="title is-7">babel</p> */}
               </div>
             </div>
             <div className="level-item has-text-centered is-hidden-touch	">
               <div>
-                <img className="image is-48x48 icons-portfolio" src="../styles/webpack.png" alt="webpack" />
+                <img className="image is-48x48 icons-portfolio" src={webpack} alt="webpack" />
                 {/* <p className="title is-7">webpack</p> */}
               </div>
             </div>
