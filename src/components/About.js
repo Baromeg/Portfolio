@@ -46,9 +46,9 @@ const About = () => {
                 <article className="tile is-child notification is-link">
 
                   <div className="content is-size-5	">
-                    <p className='has-text-primary'>I am Baltasar, a graduated software engineer at General Assembly, seeking a Junior full-stack developer role where I can share my ideas and create impactful contributions.</p>
-                    <p className='has-text-primary'>After more than 12 years experience in hospitality, I decided to blend my passion for software engineering and my creative and analytical thinking to pursue a career shift, becoming part of the solution for today’s world challenges.</p>
-                    <p className='has-text-primary'>I am eager to collaborate in projects that develop a better and more sustainable future.</p>
+                    <p className='has-text-primary'>I am Baltasar, a graduated software engineer at General Assembly, seeking my first junior full-stack developer role to share my ideas, collaborate and continue developing my skills.</p>
+                    <p className='has-text-primary'>           After more than 12 years of hospitality experience, I decided to blend my passion for software engineering and my creative and analytical thinking to pursue a career shift, becoming part of the solution for today’s world challenges.</p>
+                    <p className='has-text-primary'>                    I am eager to contribute to projects that develop a better and more sustainable future.</p>
                     {/* <p className='has-text-primary'>Connect with me if you would like to know more</p> */}
                     {/* <div className="columns is-mobile ">
                       <div className="column has-text-centered "> */}
@@ -370,26 +370,27 @@ const About = () => {
 
           <div className="columns is-multiline is-centered is-flex-mobile has-text-centered	">
             {/* <div className="is-inline-flex"> */}
+            <div className="column ">
+              <img className="image is-64x64 icons" src={innovation} alt="innovation" />
 
+              <p className="title is-7 has-text-primary pt-3 interest">Innovation</p>
+            </div>
+
+            <div className="column ">
+              <img className="image is-64x64 icons" src={climate} alt="climate change" />
+
+              <p className="title is-7 has-text-primary pt-3 interest">Climate Change</p>
+            </div>
             <div className="column ">
               <FontAwesomeIcon icon={faRecycle} color='#f05454' size='5x' />
 
               <p className="title is-7 has-text-primary pt-3 interest">Circular Economy</p>
 
             </div>
-            <div className="column ">
-              <img className="image is-64x64 icons" src={climate} alt="climate change" />
-
-              <p className="title is-7 has-text-primary pt-3 interest">Climate Change</p>
-            </div>
             {/* </div> */}
             {/* <div className="is-inline-flex"> */}
 
-            <div className="column ">
-              <img className="image is-64x64 icons" src={innovation} alt="innovation" />
 
-              <p className="title is-7 has-text-primary pt-3 interest">Innovation</p>
-            </div>
 
             <div className="column ">
               <img className="image is-64x64 icons" src={bcorp} alt="b-corp certification" />

@@ -51,11 +51,11 @@ const Portfolio = (props) => {
                     <div className="columns is-mobile">
                       <div className="column has-text-centered">
                         <a target='_blank' rel='noreferrer' href="https://knowyourheritage.herokuapp.com/">
-                          <FontAwesomeIcon icon={faChrome} color='#f05454' size='3x' />
+                          <FontAwesomeIcon icon={faChrome} color='#30475e' size='3x' />
                         </a>
                       </div>
                       <div className="column has-text-centered">
-                        <a target='_blank' rel='noreferrer' href="https://github.com/Baromeg/project-4"><FontAwesomeIcon icon={faGithub} color='#f05454' size='3x' />
+                        <a target='_blank' rel='noreferrer' href="https://github.com/Baromeg/project-4"><FontAwesomeIcon icon={faGithub} color='#30475e' size='3x' />
                         </a>
                       </div>
                     </div>
@@ -175,11 +175,11 @@ const Portfolio = (props) => {
                       <div className="column has-text-centered">
 
                         <a target='_blank' rel='noreferrer' href="https://greenworld-p3.herokuapp.com/">
-                          <FontAwesomeIcon icon={faChrome} color='#f05454' size='3x' />
+                          <FontAwesomeIcon icon={faChrome} color='#e8e8e8' size='3x' />
                         </a>
                       </div>
                       <div className="column has-text-centered">
-                        <a target='_blank' rel='noreferrer' href="https://github.com/Baromeg/project-3"><FontAwesomeIcon icon={faGithub} color='#f05454' size='3x' />
+                        <a target='_blank' rel='noreferrer' href="https://github.com/Baromeg/project-3"><FontAwesomeIcon icon={faGithub} color='#e8e8e8' size='3x' />
                         </a>
                       </div>
 
@@ -293,12 +293,12 @@ const Portfolio = (props) => {
                     <div className="columns is-mobile ">
                       <div className="column has-text-centered ">
                         <a target='_blank' rel='noreferrer' href="https://baromeg.github.io/project-2">
-                          <FontAwesomeIcon icon={faChrome} color='#f05454' size='3x' />
+                          <FontAwesomeIcon icon={faChrome} color='#30475e' size='3x' />
 
                         </a>
                       </div>
                       <div className="column has-text-centered">
-                        <a target='_blank' rel='noreferrer' href="https://github.com/Baromeg/project-2"><FontAwesomeIcon icon={faGithub} color='#f05454' size='3x' />
+                        <a target='_blank' rel='noreferrer' href="https://github.com/Baromeg/project-2"><FontAwesomeIcon icon={faGithub} color='#30475e' size='3x' />
                         </a>
                       </div>
                     </div>
@@ -404,11 +404,11 @@ const Portfolio = (props) => {
                     <div className="columns is-mobile">
                       <div className="column has-text-centered">
                         <a target='_blank' rel='noreferrer' href="https://baromeg.github.io/project-1">
-                          <FontAwesomeIcon icon={faChrome} color='#f05454' size='3x' />
+                          <FontAwesomeIcon icon={faChrome} color='#e8e8e8' size='3x' />
                         </a>
                       </div>
                       <div className="column has-text-centered">
-                        <a target='_blank' rel='noreferrer' href="https://github.com/Baromeg/project-1"><FontAwesomeIcon icon={faGithub} color='#f05454' size='3x' />
+                        <a target='_blank' rel='noreferrer' href="https://github.com/Baromeg/project-1"><FontAwesomeIcon icon={faGithub} color='#e8e8e8' size='3x' />
                         </a>
                       </div>
                     </div>
