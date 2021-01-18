@@ -47,8 +47,8 @@ const About = () => {
 
                   <div className="content is-size-5	">
                     <p className='has-text-primary'>I am Baltasar, a graduated software engineer at General Assembly, seeking my first junior full-stack developer role to share my ideas, collaborate and continue developing my skills.</p>
-                    <p className='has-text-primary'>           After more than 12 years of hospitality experience, I decided to blend my passion for software engineering and my creative and analytical thinking to pursue a career shift, becoming part of the solution for today’s world challenges.</p>
-                    <p className='has-text-primary'>                    I am eager to contribute to projects that develop a better and more sustainable future.</p>
+                    <p className='has-text-primary'>           After more than 12 years of hospitality experience, I decided to blend my passion for software engineering and my creative and analytical side to pursue a career change and become part of the solution for today’s world challenges.</p>
+                    <p className='has-text-primary'>                    I am eager to contribute to projects that develop a better and more sustainable tomorrow.</p>
                     {/* <p className='has-text-primary'>Connect with me if you would like to know more</p> */}
                     {/* <div className="columns is-mobile ">
                       <div className="column has-text-centered "> */}

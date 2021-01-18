@@ -18,8 +18,9 @@ const Home = () => {
           <div className="section title">
             <p className="Subtitle is-size-2 is-family-code has-text-primary is-size-4-mobile pb-5">{'Hello World!'}</p>
 
-            <p className="title is-size-1 is-family-code has-text-primary is-size-2-mobile	">{'<I am Baltasar'}</p>
-            <p className="title is-size-1 is-family-code has-text-primary is-size-2-mobile">{'Romero/>'}</p>
+            <p className="title is-size-1 is-family-code has-text-primary is-size-2-mobile	">{'// I am'}</p>
+            <p className="title is-size-1 is-family-code has-text-primary is-size-2-mobile	">{'< Baltasar'}</p>
+            <p className="title is-size-1 is-family-code has-text-primary is-size-2-mobile">{'Romero />'}</p>
             <p className="Subtitle is-size-2 is-family-code has-text-primary is-size-4-mobile">{'Full-Stack Software Engineer'}</p>
           </div>
         </div>
