@@ -105,34 +105,19 @@ ScrollTop.propTypes = {
   window: PropTypes.func
 }
 const theme = createMuiTheme({
-  // background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
-  // props: {
-  //   color: 'transparent'
-  // },
+
   palette: {
     primary: {
-      // light: '#757ce8',
       main: '#e8e8e8'
-      // dark: '#002884',
-      // contrastText: '#fff'
     },
     info: {
-      // light: '#ff7961',
       main: '#f05454'
-      // dark: '#ba000d',
-      // contrastText: '#000'
     },
     link: {
-      // light: '#ff7961',
       main: '#30475e'
-      // dark: '#ba000d',
-      // contrastText: '#000'
     },
     warning: {
-      // light: '#ff7961',
       main: '#222831'
-      // dark: '#ba000d',
-      // contrastText: '#000'
     }
   }
 })

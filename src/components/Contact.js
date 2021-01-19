@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel'
 import 'pure-react-carousel/dist/react-carousel.es.css'
-import axios from 'axios'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faComments, faEnvelope, fap, faPaperPlane, faSignature } from '@fortawesome/free-solid-svg-icons'
-import { faJsSquare, faPython, faReact, faNodeJs, faGitSquare, faGithub, faHtml5, faSass, faCss3, faChrome, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faPaperPlane, faSignature } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import me from '../styles/blackandwhite.jpeg'
 
 

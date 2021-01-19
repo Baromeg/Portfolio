@@ -1,13 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fap } from '@fortawesome/free-solid-svg-icons'
 import { faJsSquare, faPython, faReact, faNodeJs, faGitSquare, faGithub, faHtml5, faSass, faChrome, faCss3 } from '@fortawesome/free-brands-svg-icons'
 import Mockup from './Mockup'
 import babel from '../styles/Babel.png'
 import bulma from '../styles/bulma.png'
 import responsive from '../styles/responsive-design.png'
 import mongodb from '../styles/mongodb.png'
-import jwt from '../styles/jwt.png'
 import flask from '../styles/flask.png'
 import postgresql from '../styles/postgresql.png'
 import marshmallow from '../styles/marshmallow.png'
@@ -42,7 +40,6 @@ const Portfolio = (props) => {
               <Mockup
                 src={knowyourheritage}
               ></Mockup>
-              {/* <img src="../styles/knowyourheritage.png" alt="knowyourheritage screenshot" /> */}
             </div>
             <div className="column is-4">
               <div className="tile is-ancestor">
@@ -64,7 +61,9 @@ const Portfolio = (props) => {
                     <div className="content 
                     has-text-link is-size-6">
                       <p>The application showcases the wonders of the UNESCO’s World Heritage List to promote its awareness.</p>
-                      <p>I developed the nested fetches with the different API’s to achieve the desired data seed displayed in the application using Python. I built the home page and completed the styling of the app.</p>
+                      <p>Using Python I computed the data from several API’s requests (UNESCO list + Google Places & Photos) and built the componentry for the UI.
+                      </p>
+                      <p>The app has email verification using SendGrid, a map feature using Mapbox and an image carousel using ImageGallery.</p>
                     </div>
                   </div>
 
@@ -165,7 +164,6 @@ const Portfolio = (props) => {
               <Mockup
                 src={greenworld}
               ></Mockup>
-              {/* <img src="../styles/knowyourheritage.png" alt="knowyourheritage screenshot" /> */}
             </div>
             <div className="column is-4">
               <div className="tile is-ancestor">
@@ -173,7 +171,6 @@ const Portfolio = (props) => {
                   <div className="tile is-child is-vertical">
                     <div className="columns is-mobile">
                       <div className="column has-text-centered">
-
                         <a target='_blank' rel='noreferrer' href="https://greenworld-p3.herokuapp.com/">
                           <FontAwesomeIcon icon={faChrome} color='#e8e8e8' size='3x' />
                         </a>
@@ -182,13 +179,13 @@ const Portfolio = (props) => {
                         <a target='_blank' rel='noreferrer' href="https://github.com/Baromeg/project-3"><FontAwesomeIcon icon={faGithub} color='#e8e8e8' size='3x' />
                         </a>
                       </div>
-
                     </div>
                   </div>
                   <div className="tile is-child is-vertical">
                     <div className="content has-text-primary is-size-6">
                       <p>The application helps the user make greener decisions by discovering sustainable business and communities locally.</p>
-                      <p>I built the "Single location" page, the map tile using MapBox, the comments and ratings using React-Ratings. I also implemented the photo upload feature using Cloudinary. Also, I was responsible for the "Edit location" page, which populates the location’s original data into the form.</p>
+                      <p>I built the "Single location" page and enriched the UX with the map tile using MapBox, the comments and ratings using React-Ratings, the photo upload feature using Cloudinary.</p>
+                      <p>It handles async requests (Yelp, Mapbox) with error handling triggers and geolocation for best UX.</p>
                     </div>
                   </div>
                 </div>
@@ -266,8 +263,6 @@ const Portfolio = (props) => {
               </div>
             </div>
           </nav>
-
-
         </div>
       </div>
     </section>
@@ -278,13 +273,12 @@ const Portfolio = (props) => {
           <div className="section title has-text-link is-family-code">
             Heroes
           </div>
-
           <div className="columns">
             <div className="column is-8">
               <Mockup
                 src={heroes}
-              ></Mockup>
-              {/* <img src="../styles/heroes.png" alt="heroes screenshot" /> */}
+              >
+              </Mockup>
             </div>
             <div className="column is-4">
               <div className="tile is-ancestor">
@@ -305,8 +299,13 @@ const Portfolio = (props) => {
                   </div>
                   <div className="tile is-child is-vertical">
                     <div className="content has-text-link is-size-6">
-                      <p>The application features all-time comic heroes. Using multiple API’s to link each hero with its first comic appearance. We worked together throughout the project, implementing the API’s and different pages. I built the carousel on the home page.
+                      <p>The application features all-time comic heroes.
                       </p>
+                      <p>
+                        Pair programming throughout the project fetching several API’s (SuperHero & ComicVine) to link each hero with its first comic appearance as well as the entire UI.
+
+                      </p>
+                      <p>I enhanced the UX by implementing the image carousel on the home page using react-carousel library.</p>
                     </div>
                   </div>
 
@@ -414,7 +413,7 @@ const Portfolio = (props) => {
                     </div>
                     <div className="tile is-child is-vertical">
                       <div className="content has-text-primary is-size-6">
-                        <p>It was my first independently made application. It is a grid-based game where I implemented the concepts learned on CSS, JavaScript, logical thinking and problem-solving.
+                        <p>It was my first independently made application. It is a grid-based game where I implemented the concepts learned on CSS, JavaScript, logical thinking and problem-solving. The game handles moving obstacles and tracks the player's scoring.
 </p>
                       </div>
                     </div>
@@ -480,91 +479,3 @@ const Portfolio = (props) => {
 export default Portfolio
 
 
-
-{/* <div className="columns is-multiline is-centered is-mobile">
-                <div className="column">
-                  <p className="title is-6">JavaScript</p>
-                  <img className="is-4by5" src="https://quintagroup.com/cms/js/js-image/javascript-logo.png/@@images/8c64c4b9-4e1c-4c26-9b5e-78d85e3130a9.png" alt="" />
-                </div>
-                <div className="column">
-                  <p className="title is-6">JavaScript</p>
-                  <img className="is-68x68" src="https://quintagroup.com/cms/js/js-image/javascript-logo.png/@@images/8c64c4b9-4e1c-4c26-9b5e-78d85e3130a9.png" alt="" />
-                </div>
-                <div className="column">
-                  <p className="title is-6">JavaScript</p>
-                  <img className="is-32x32" src="https://quintagroup.com/cms/js/js-image/javascript-logo.png/@@images/8c64c4b9-4e1c-4c26-9b5e-78d85e3130a9.png" alt="" />
-                </div>
-              </div> */}
-
-{/* <section className="hero is-fullheight-with-navbar is-primary">
-      <div className="hero-body">
-        <div className="container is-fullhd hero-work">
-          <div className="section title">
-            Greener World
-          </div>
-        </div>
-        <nav className="level is-mobile">
-          <div className="level-item has-text-centered">
-            <div>
-              <FontAwesomeIcon icon={faJsSquare} color='#f05454' size='3x' />
-              <p className="title is-7">JavaScript</p>
-            </div>
-          </div>
-          <div className="level-item has-text-centered">
-            <div>
-              <FontAwesomeIcon icon={faReact} color='#f05454' size='3x' />
-              <p className="title is-7">React.Js</p>
-            </div>
-          </div>
-          <div className="level-item has-text-centered">
-            <div>
-              <FontAwesomeIcon icon={faPython} color='#f05454' size='3x' />
-              <p className="title is-7">Python</p>
-            </div>
-          </div>
-          <div className="level-item has-text-centered">
-            <div>
-              <img className="image is-48x48 icons-portfolio" src="../styles/flask.png" alt="flask" />
-              <p className="title is-7">Flask</p>
-            </div>
-          </div>
-          <div className="level-item has-text-centered">
-            <div>
-              <img className="image is-48x48 icons-portfolio" src="../styles/postgresql.webp" alt="flask" />
-              <p className="title is-7">PostgresDB</p>
-            </div>
-          </div>
-        </nav>
-        <div className="columns">
-          <div className="column is-8">
-            <Mockup
-              src="../styles/greenworld.png"
-            ></Mockup>
-  
-          </div>
-          <div className="column is-4">
-            <div className="tile is-ancestor">
-              <div className="tile is-parent is-vertical">
-                <div className="tile is-child is-vertical">
-                  <div className="content has-text-centered">
-                    <p>The application helps the user make greener decisions by discovering sustainable business and communities locally.
-</p>
-                    <p>I built the "Single location" page, the map tile using MapBox, the comments and ratings using React-Ratings. I also implemented the photo upload feature using Cloudinary. Also, I was responsible for the "Edit location" page, which populates the location’s original data into the form.</p>
-                  </div>
-                </div>
-                <div className="tile is-child is-vertical">
-                  <div className="columns">
-                    <div className="column has-text-centered">
-                      <FontAwesomeIcon icon={faChrome} color='#f05454' size='3x' />
-                    </div>
-                    <div className="column has-text-centered">
-                      <FontAwesomeIcon icon={faGithub} color='#f05454' size='3x' />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> */}
