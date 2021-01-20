@@ -29,6 +29,7 @@ $warning: #222831;
 $input-background-color:  #e8e8e8;
 $footer-background-color:  #e8e8e8;
 $size-1: 5rem;
+// $size-7: 0.65rem;
 $footer-padding	:1rem 1.5rem 1rem;
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
@@ -61,6 +62,9 @@ $input-shadow: none;
   margin-right: auto;
   width: 50%;
   max-height: 40px;
+}
+.marsh{
+  width: 5rem;
 }
 // .interest {
 //   max-width: 85px;

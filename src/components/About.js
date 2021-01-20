@@ -145,7 +145,7 @@ const About = () => {
                       </div>
                       <div className="column">
 
-                        <p className="title is-7 has-text-primary">Marshmallow</p>
+                        <p className="title is-7 has-text-primary marsh  ">Marshmallow</p>
                         <img className="image is-64x64 icons" src={marshmallow} alt="Marshmallow" />
                       </div>
                     </div>
