@@ -296,12 +296,12 @@ const About = () => {
 
 
 
-            <div className="column ">
+            <a target='_blank' rel='noreferrer' href="https://bcorporation.net/" className="column ">
               <img className="image is-64x64 icons" src={bcorp} alt="b-corp certification" />
 
 
               <p className="title is-7 has-text-primary pt-3 interest">B Corp Certification</p>
-            </div>
+            </a>
             {/* </div> */}
 
           </div>
