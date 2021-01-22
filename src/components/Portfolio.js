@@ -47,7 +47,7 @@ const Portfolio = (props) => {
                   <div className="tile is-child is-vertical">
                     <div className="columns is-mobile">
                       <div className="column has-text-centered">
-                        <a target='_blank' rel='noreferrer' href="https://knowyourheritage.herokuapp.com/">
+                        <a target='_blank' rel='noreferrer' href="https://know-your-heritage.herokuapp.com/">
                           <FontAwesomeIcon icon={faChrome} color='#30475e' size='3x' />
                         </a>
                       </div>
