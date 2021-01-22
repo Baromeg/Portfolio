@@ -28,7 +28,8 @@ $link: #30475e;
 $warning: #222831; 
 $input-background-color:  #e8e8e8;
 $footer-background-color:  #e8e8e8;
-$size-1: 8rem;
+$size-1: 5rem;
+// $size-7: 0.65rem;
 $footer-padding	:1rem 1.5rem 1rem;
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
@@ -52,6 +53,7 @@ $input-shadow: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    min-width: 66px;
     width: 50%;
   }
 .icons-portfolio {
@@ -61,6 +63,12 @@ $input-shadow: none;
   width: 50%;
   max-height: 40px;
 }
+.marsh{
+  width: 5rem;
+}
+// .interest {
+//   max-width: 85px;
+// }
 // .MuiAppBar-root {
 //   padding-right: 700px;
 // }
@@ -70,7 +78,7 @@ $input-shadow: none;
 
 
 .homebody {
-	background: linear-gradient(-45deg, #30475e,#f05454,  #e8e8e8);
+	background: linear-gradient(-45deg, #f05454, #30475e,  #e8e8e8);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
