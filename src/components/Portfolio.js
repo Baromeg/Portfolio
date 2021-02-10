@@ -48,7 +48,7 @@ const Portfolio = (props) => {
                   <div className="tile is-child is-vertical">
                     <div className="columns is-mobile">
                       <div className="column has-text-centered">
-                        <a target='_blank' rel='noreferrer' href="https://know-your-heritage.herokuapp.com/">
+                        <a target='_blank' rel='noreferrer' href="https://knowyourheritage.herokuapp.com/">
                           <FontAwesomeIcon icon={faChrome} color='#30475e' size='3x' />
                         </a>
                       </div>
@@ -60,7 +60,7 @@ const Portfolio = (props) => {
                   </div>
                   <div className="tile is-child is-vertical">
                     <div className="content 
-                    has-text-link is-size-6 has-text-centered">
+                    has-text-link is-size-6 has-text-left">
                       <p>The application showcases the wonders of the UNESCO’s World Heritage List to promote its awareness.</p>
                       <p>Using Python I computed the data from several API’s requests (UNESCO list + Google Places & Photos) and built the componentry for the UI.
                       </p>
@@ -183,7 +183,7 @@ const Portfolio = (props) => {
                     </div>
                   </div>
                   <div className="tile is-child is-vertical">
-                    <div className="content has-text-primary is-size-6 has-text-centered">
+                    <div className="content has-text-primary is-size-6 has-text-left">
                       <p>The application helps the user make greener decisions by discovering sustainable business and communities locally.</p>
                       <p>I built the "Single location" page and enriched the UX with the map tile using MapBox, the comments and ratings using React-Ratings, the photo upload feature using Cloudinary.</p>
                       <p>It handles async requests (Yelp, Mapbox) with error handling triggers and geolocation for best UX.</p>
@@ -299,7 +299,7 @@ const Portfolio = (props) => {
                     </div>
                   </div>
                   <div className="tile is-child is-vertical">
-                    <div className="content has-text-link is-size-6 has-text-centered">
+                    <div className="content has-text-link is-size-6 has-text-left">
                       <p>The application features all-time comic heroes.
                       </p>
                       <p>
@@ -413,7 +413,7 @@ const Portfolio = (props) => {
                       </div>
                     </div>
                     <div className="tile is-child is-vertical">
-                      <div className="content has-text-primary is-size-6 has-text-centered">
+                      <div className="content has-text-primary is-size-6 has-text-left">
                         <p>It was my first independently made application. It is a grid-based game where I implemented the concepts learned on CSS, JavaScript, logical thinking and problem-solving. </p>
                         <p>The game handles moving obstacles and tracks the player's scoring.</p>
                       </div>

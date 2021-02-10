@@ -4,7 +4,7 @@ import 'pure-react-carousel/dist/react-carousel.es.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPaperPlane, faSignature } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import me from '../styles/blackandwhite.jpeg'
+import me from '../styles/Baltasar.png'
 
 
 const Contact = () => {
