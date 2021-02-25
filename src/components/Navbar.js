@@ -100,10 +100,10 @@ function ScrollTop(props) {
   )
 }
 
-ScrollTop.propTypes = {
-  children: PropTypes.element.isRequired,
-  window: PropTypes.func
-}
+// ScrollTop.propTypes = {
+//   children: PropTypes.element.isRequired,
+//   window: PropTypes.func
+// }
 const theme = createMuiTheme({
 
   palette: {

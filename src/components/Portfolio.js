@@ -20,7 +20,7 @@ import d3 from '../styles/d3.png'
 import knowyourheritage from '../styles/knowyourheritage.png'
 import greenworld from '../styles/greenworld.png'
 import heroes from '../styles/heroes.png'
-import frogger from '../styles/frogger.png'
+import frogger from "../styles/ezgif.com-gif-maker.gif"
 import restapi from '../styles/rest-api.png'
 import mapbox from '../styles/mapbox.png'
 import cloudinary from '../styles/cloudinary.png'
